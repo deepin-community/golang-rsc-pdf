@@ -1,5 +1,21 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-rsc-pdf (0.1.0+git20180525.c47d69c-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-rsc-pdf-dev: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 26 Nov 2022 13:06:38 +0000
+
+golang-rsc-pdf (0.1.0+git20180525.c47d69c-2) unstable; urgency=medium
+
+  * Team upload.
+  * Standards-Version: 4.5.0 (routine-update)
+  * Add salsa-ci file (routine-update)
+
+ -- Andreas Tille <tille@debian.org>  Thu, 06 Aug 2020 13:21:25 +0200
+
+golang-rsc-pdf (0.1.0+git20180525.c47d69c-1) unstable; urgency=medium
+
+  [Emanuel Krivoy, Nilesh Patra]
+  * Initial release (Closes: #932836)
+
+ -- Emanuel Krivoy <ekrivoy@gmail.com>  Sat, 01 Jun 2019 12:19:44 +0200
