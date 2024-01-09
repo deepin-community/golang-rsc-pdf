@@ -1,4 +1,8 @@
 #!/usr/bin/make -f
 
+# We want to build only the library packages themselves, not the accompanying
+# binaries.
+export DH_GOLANG_EXCLUDES := pdfpasswd
+
 %:
-	dh $@
+	dh $@ --buildsystem=golang --with=golang
